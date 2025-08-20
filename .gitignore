@@ -1,0 +1,33 @@
+# Quarto build output
+_site/
+.quarto/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+.tmp/
+
+# Node modules (if using npm for extensions)
+node_modules/
+
+# R files (if using R with Quarto)
+.Rproj.user/
+.Rhistory
+.RData
+
+# Python files (if using Python with Quarto)
+__pycache__/
+*.pyc
+.env
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/

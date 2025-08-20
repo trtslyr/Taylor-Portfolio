@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "[Your Name]'s Portfolio"
+  description: "STRAT 490R – Creating Digital Products with AI"
+  
+  sidebar:
+    contents:
+      - text: "Home"
+        file: index.qmd
+      - text: "About Me"  
+        file: about.qmd
+      - section: "Homeworks"
+        contents:
+          - text: "Homework 1 - Understanding Git for collaboration and version control"
+            file: homeworks/homework-1.qmd
+          - text: "Homework 2 - Choosing the right AI tools"
+            file: homeworks/homework-2.qmd
+          - text: "Homework 3 - Understanding Large Language Models"
+            file: homeworks/homework-3.qmd
+          - text: "Homework 4 - Creating a Product Requirements Document (PRD)"
+            file: homeworks/homework-4.qmd
+          - text: "Homework 5 - Understanding the internet and APIs"
+            file: homeworks/homework-5.qmd
+      - text: "Final Project"
+        file: final-project.qmd
+      - text: "Notes"
+        file: notes/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: right
+    code-copy: true
+    grid:
+      sidebar-width: 300px
