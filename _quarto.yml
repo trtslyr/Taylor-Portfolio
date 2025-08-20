@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "[Your Name]'s Portfolio"
+  title: "Taylor's Portfolio"
   description: "STRAT 490R – Creating Digital Products with AI"
   
   sidebar:
